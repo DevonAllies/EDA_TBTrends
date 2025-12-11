@@ -1,0 +1,11 @@
+# Log files
+*.log
+
+# Pdf files
+*.pdf
+
+# Enviroment
+/venv
+
+# Temp files
+*.temp
