@@ -12,3 +12,9 @@
 
 # Data file
 *.csv
+
+# R files
+.Rproj.user/
+.RData
+.Rproj
+.Rhistory
