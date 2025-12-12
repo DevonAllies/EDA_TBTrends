@@ -5,7 +5,8 @@
 *.pdf
 
 # Enviroment
-/venv
+renv/
+.venv/
 
 # Temp files
 *.temp
@@ -16,5 +17,7 @@
 # R files
 .Rproj.user/
 .RData
-.Rproj
+.Rproj.user
 .Rhistory
+.Ruserdata
+Tuberculosis_Trends.csv

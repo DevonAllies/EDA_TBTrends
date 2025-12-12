@@ -6,7 +6,6 @@ format:
     toc: false
 bibliography: references.bib
 csl: harvard-anglia-ruskin-university.csl
-jupyter: python3
 ---
 
 \newpage
@@ -32,6 +31,18 @@ This project conducts an exploratory data analysis (EDA) of the `Tuberculosis_Tr
 Analysis was conducted primarily using Python, leveraging key libraries from the scientific Python ecosystem: **pandas** [@reback2020pandas] for data manipulation, **Numpy** [@harris2020array] for numerical operations, **Seaborn** [@Waskom2021], **Matplotlib** [@Hunter:2007] for visualization, and **SciPy** [@2020SciPy-NMeth] for scientific computing.
 
 The following script outlines the necessary modules imported to facilitate the project's data processing and exploratory visualization stages:
+
+```{r}
+#| label: r-setup
+#| echo: false
+#| message: false
+#| warning: false
+#| results: 'hide'
+
+# load reticulate package
+library(reticulate)
+
+```
 
 ```{python}
 #| label: import_modules
@@ -114,7 +125,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-he persistent disparity between high-burden regions (Asia, Africa) and low-burden regions (North America, Europe) underscores the critical need for targeted, context-specific interventions. This initial observation justifies a deeper dive into country-level socio-economic factors (e.g., GDP, health expenditure) to understand the drivers behind these regional differences, rather than just observing them.
+The persistent disparity between high-burden regions (Asia, Africa) and low-burden regions (North America, Europe) underscores the critical need for targeted, context-specific interventions. This initial observation justifies a deeper dive into country-level socio-economic factors (e.g., GDP, health expenditure) to understand the drivers behind these regional differences, rather than just observing them.
 
 ```{python}
 #| echo: false
